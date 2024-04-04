@@ -1,6 +1,7 @@
 data/*
+instructdata/preprocess/*
 __pycache__/
 
-!data/example
+!data/example.json
 
 !.keep

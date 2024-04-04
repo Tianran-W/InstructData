@@ -48,6 +48,7 @@ class Ui_Widget(object):
         self.textBrowser_4 = QTextBrowser(Widget)
         self.textBrowser_4.setObjectName("textBrowser_4")
         self.textBrowser_4.setGeometry(QRect(470, 350, 301, 141))
+        self.textBrowsers = [self.textBrowser_1, self.textBrowser_2, self.textBrowser_3, self.textBrowser_4]
         self.progressBar = QProgressBar(Widget)
         self.progressBar.setObjectName("progressBar")
         self.progressBar.setGeometry(QRect(250, 510, 121, 31))
@@ -85,6 +86,7 @@ class Ui_Widget(object):
         self.lineEdit_4 = QLineEdit(Widget)
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.lineEdit_4.setGeometry(QRect(720, 550, 31, 31))
+        self.lineEdits = [self.lineEdit_1, self.lineEdit_2, self.lineEdit_3, self.lineEdit_4]
         self.tips_label = QLabel(Widget)
         self.tips_label.setObjectName("tips_label")
         self.tips_label.setGeometry(QRect(510, 509, 151, 31))

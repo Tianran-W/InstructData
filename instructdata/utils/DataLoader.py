@@ -5,8 +5,8 @@ class DataLoader:
         'json': JsonHandler
     }
 
-    def __init__(self, path, handler_type):
-        self.handler = self.handlers[handler_type](path)
+    def __init__(self, path, file_type):
+        self.handler = self.handlers[file_type](path)
         self.idx = 0
         self.length = len(self.handler)
 
